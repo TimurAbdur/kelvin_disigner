@@ -1,0 +1,44 @@
+.portfolio {
+    background: #F1F1F1;
+    padding: 90px 0;
+}
+
+.portfolio-title {
+    margin-bottom: 70px;
+}
+
+.project {
+    text-align: center;
+}
+
+.project + .project {
+    margin-top: 90px;
+}
+
+.project-img {
+    margin-bottom: 40px;
+}
+
+.project-title a {
+    font-size: 18px;
+    color: #000000;
+    text-decoration:underline;
+}
+
+@media (max-width: 700px) { 
+    .portfolio {
+        padding: 60px 0;
+    }
+
+    .portfolio-title {
+        margin-bottom: 50px;
+    }
+
+    .project + .project {
+        margin-top: 55px;
+    }
+
+    .project-img {
+        margin-bottom: 30px;
+    }
+}
